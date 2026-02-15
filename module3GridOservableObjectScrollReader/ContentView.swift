@@ -1,11 +1,11 @@
-//
-//  ContentView.swift
-//  module3GridOservableObjectScrollReader
-//
-//  Created by Максим Минаков on 14.02.2026.
-//
-
 import SwiftUI
+
+
+
+// enviromintObject
+// ScrollViewReader
+// Greed
+
 
 struct ContentView: View {
     var body: some View {
