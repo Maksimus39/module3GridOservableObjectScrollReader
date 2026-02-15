@@ -41,12 +41,14 @@ struct module3GridOservableObjectScrollReaderApp: App {
     
     var body: some Scene {
         WindowGroup {
-            switch viewModel.isLogin {
-            case true : AppView(viewModel: viewModel)
-                //.environmentObject(viewModel)
-            case false: LoginView(viewModel: viewModel)
-                    //.environmentObject(viewModel)
-            }
+//            switch viewModel.isLogin {
+//            case true : AppView(viewModel: viewModel)
+//                //.environmentObject(viewModel)
+//            case false: LoginView(viewModel: viewModel)
+//                    //.environmentObject(viewModel)
+//            }
+            
+            ContentView()
         }
     }
 }

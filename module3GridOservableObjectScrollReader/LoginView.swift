@@ -2,7 +2,7 @@ import SwiftUI
 
 struct LoginView: View {
     // before
-    //@EnvironmentObject var mainViewModel: MainViewModel
+    //@EnvironmentObject var viewModel: MainViewModel
     
     // after
     let viewModel: MainViewModel
