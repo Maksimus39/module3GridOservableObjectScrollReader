@@ -48,7 +48,9 @@ struct module3GridOservableObjectScrollReaderApp: App {
 //                    //.environmentObject(viewModel)
 //            }
             
-            ContentView()
+            //ContentView()
+            
+             ContentView2()
         }
     }
 }
