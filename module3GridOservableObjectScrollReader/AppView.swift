@@ -7,13 +7,6 @@ struct AppView: View {
     var body: some View {
         VStack {
             Text("App view")
-            
-            Button {
-                viewModel.isLogin = false
-            } label: {
-                Text("Exit")
-            }
-
         }
     }
 }
